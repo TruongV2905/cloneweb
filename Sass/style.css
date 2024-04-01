@@ -363,12 +363,12 @@ main .newAndEvent-section .grid__container .box__grid .box__img {
 main .newAndEvent-section .grid__container .box__grid .box__img img {
   -o-object-fit: none;
      object-fit: none;
-  width: 570px;
+  width: 650px;
   height: 357px;
 }
 main .newAndEvent-section .grid__container .box__grid img:hover {
   transition: var(--animiation);
-  transform: rotate(-5deg) scale(1.1);
+  transform: rotate(-5deg) scale(1.2);
 }
 main .newAndEvent-section .box__content-button {
   display: flex;

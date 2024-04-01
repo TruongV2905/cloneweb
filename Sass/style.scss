@@ -365,13 +365,13 @@ main {
           justify-content: center;
           img {
             object-fit: none;
-            width: 570px;
+            width: 650px;
             height: 357px;
           }
         }
         img:hover {
           transition: var(--animiation);
-          transform: rotate(-5deg) scale(1.1);
+          transform: rotate(-5deg) scale(1.2);
         }
       }
     }
