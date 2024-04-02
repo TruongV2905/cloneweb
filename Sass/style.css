@@ -392,6 +392,49 @@ main .newAndEvent-section .box__content-button .button__icon {
   color: var(--mainRed);
   border-radius: 50%;
 }
+main .thinkAbout__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+main .thinkAbout__section .thinkAbout__content {
+  width: 50%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+main .thinkAbout__section .thinkAbout__content h1 {
+  width: 80%;
+  font-size: 3em;
+  font-weight: 1000;
+}
+main .thinkAbout__section .thinkAbout__category {
+  width: 60%;
+  background: blue;
+  border: 2px solid black;
+}
+main .thinkAbout__section .thinkAbout__category .category__item {
+  width: 33.3333333333%;
+  background-color: red;
+  margin: 0 30px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+main .thinkAbout__section .thinkAbout__category .category__item .box__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 main .system-section {
   margin-top: 100px;
   position: relative;
